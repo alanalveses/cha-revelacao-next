@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, FormEvent } from "react";
 import EnvelopeAnimation from "./components/EnvelopeAnimation";
 import Diaper from "./components/Diaper";
+import Head from "next/head";
 
 export default function Home() {
   const [formStatus, setFormStatus] = useState<
@@ -45,6 +46,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       {showAnimation ? (
         <EnvelopeAnimation onFinish={() => setShowAnimation(false)} />
       ) : (
@@ -75,7 +79,7 @@ export default function Home() {
                 style={{ backgroundImage: "url('/nuvem-pink.png')" }}
               >
                 <Link
-                  href="https://api.whatsapp.com/send?phone=557791287659&text=..."
+                  href="https://api.whatsapp.com/send?phone=557791287659&text=Ol%C3%A1%2C%20confirmo%20minha%20presen%C3%A7a%20no%20Ch%C3%A1%20de%20Fralda%20e%20Revela%C3%A7%C3%A3o!"
                   target="_blank"
                   className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.6rem] font-bold text-gray-700 text-center px-2 text-wrap "
                 >
