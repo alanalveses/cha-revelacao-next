@@ -57,7 +57,7 @@ export default function More() {
           Após confirmar sua presença, enviaremos a numeração da fraldinha!
         </p>
 
-        <div className="flex justify-center items-center gap-6 animate-fade-in-up-low hover:shadow-[0_0_12px_#f4b400] transition duration-300 animate-pulse">
+        <div className="flex justify-center items-center gap-6 animate-fade-in-up-low transition duration-300 animate-pulse">
           <a
             href="https://api.whatsapp.com/send?phone=557791287659&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações%20sobre%20o%20evento!"
             target="_blank"

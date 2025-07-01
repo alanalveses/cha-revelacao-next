@@ -29,7 +29,7 @@ export default function Confirmation() {
           Te esperamos lá para celebrar esse momento especial! 😉
         </p>
 
-        <div className="flex justify-center items-center gap-6 hover:shadow-[0_0_12px_#f4b400] transition duration-300 animate-pulse">
+        <div className="flex justify-center items-center gap-6 transition duration-300 animate-pulse">
           <a
             href="https://api.whatsapp.com/send?phone=557791287659&text=Ol%C3%A1%2C%20confirmo%20minha%20presen%C3%A7a%20no%20Ch%C3%A1%20de%20Fralda%20e%20Revela%C3%A7%C3%A3o!"
             target="_blank"
@@ -40,7 +40,7 @@ export default function Confirmation() {
               alt="WhatsApp"
               width={64}
               height={64}
-              className="hover:scale-105 transition-transform"
+              className="hover:scale-105 transition-transform "
             />
           </a>
           <GradientButton/>

@@ -10,6 +10,9 @@ export const metadata = {
     title: "Chá de Fralda e Revelação - Manuella ou Marcos",
     description:
       "Venha celebrar esse momento especial com a gente! Confirme sua presença no Chá de Fralda e Revelação.",
+      icons: {
+          icon: '/favicon.ico',
+        },
     url: "https://cha-revelacao-manuellamarcos.vercel.app/",
     images: [
       {
@@ -17,9 +20,7 @@ export const metadata = {
         width: 1200,
         height: 630,
         alt: "Imagem de fundo do convite",
-        icons: {
-          icon: "/icone.png",
-        },
+        
       },
     ],
     type: "website",
