@@ -22,7 +22,7 @@ export default function Home() {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/xkgbqggl", {
+      const response = await fetch("https://formspree.io/f/xldnzqlj", {
         method: "POST",
         body: formData,
         headers: {
@@ -79,11 +79,11 @@ export default function Home() {
                 style={{ backgroundImage: "url('/nuvem-pink.png')" }}
               >
                 <Link
-                  href="https://api.whatsapp.com/send?phone=557791287659&text=Ol%C3%A1%2C%20confirmo%20minha%20presen%C3%A7a%20no%20Ch%C3%A1%20de%20Fralda%20e%20Revela%C3%A7%C3%A3o!"
-                  target="_blank"
-                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.6rem] font-bold text-gray-700 text-center px-2 text-wrap "
+                  href="#form-section"
+                  scroll={true}
+                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.7rem] md:text-[0.7rem] lg:text-[0.7rem] font-bold text-gray-700 text-center px-2 text-wrap "
                 >
-                  Confirmar no WhatsApp
+                  Confirme Agora
                 </Link>
               </div>
 
@@ -95,7 +95,7 @@ export default function Home() {
                 <Link
                   href="https://maps.app.goo.gl/zZfusRABMvtctRGZ9"
                   target="_blank"
-                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.6rem] font-bold text-gray-700 text-center px-2 text-wrap"
+                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.7rem] md:text-[0.7rem] lg:text-[0.7rem] font-bold text-gray-700 text-center px-2 text-wrap"
                 >
                   Ver Localização
                 </Link>
@@ -108,7 +108,7 @@ export default function Home() {
               >
                 <Link
                   href="/more"
-                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.6rem] md:text-[0.6rem] lg:text-[0.6rem] font-bold text-gray-700 text-center px-2 text-wrap"
+                  className="relative z-10 text-[0.4rem] xs:text-[0.4rem] ps:text-[0.6rem] sm:text-[0.7rem] md:text-[0.7rem] lg:text-[0.7rem] font-bold text-gray-700 text-center px-2 text-wrap"
                 >
                   Saiba Mais
                 </Link>
@@ -121,7 +121,7 @@ export default function Home() {
             className="bg-white bg-opacity-90 p-8 md:p-10 rounded-2xl shadow-xl border-4 border-principal-rosa max-w-lg w-full text-left mb-10 md:mb-16 animate-fade-in-up"
           >
             <h4 className="font-quicksand text-principal-rosa text-3xl md:text-4xl lg:text-5xl mb-6 text-center">
-              Confirme sua Presença!
+              Confirme sua Presença por Email!
             </h4>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
